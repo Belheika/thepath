@@ -1,0 +1,134 @@
+{
+  "love": {
+    "very_positive": {
+      "min_score": 8,
+      "messages": [
+        "Well, someone's getting lucky... and I'm not talking about lottery tickets. Cupid's working overtime for you.",
+        "Oh la la! The universe is basically throwing romance at you. Try not to trip over it.",
+        "Your love life is about to get more interesting than a season finale. Popcorn not included.",
+        "Someone's catching feelings... and it's not just a common cold. Brace for impact.",
+        "The stars are aligning for your love life. No pressure, but this could be... significant."
+      ]
+    },
+    "positive": {
+      "min_score": 4,
+      "max_score": 7,
+      "messages": [
+        "Your love life is showing promising signs of... well, having a love life. Progress!",
+        "Someone's probably thinking about you. Or they're hungry. Let's go with the romantic option.",
+        "The romantic forecast: partly cloudy with a chance of meaningful glances.",
+        "Your heart is doing that thing where it beats and feels stuff. You know, the usual.",
+        "Love is in the air. Or is that pollen? Either way, you might catch something nice."
+      ]
+    },
+    "neutral": {
+      "min_score": 0,
+      "max_score": 3,
+      "messages": [
+        "Your love life is currently... existing. And sometimes, that's enough.",
+        "The romance department is taking a well-deserved coffee break. Nothing to see here.",
+        "Your heart is in standby mode. Perfect time to binge-watch something.",
+        "Love is like your Wi-Fi right now: stable connection, no major disruptions.",
+        "The universe says your love life is... fine. Just... fine. Moving on."
+      ]
+    },
+    "challenging": {
+      "max_score": -1,
+      "messages": [
+        "Your love life is going through its 'artistic phase' - a bit messy but probably meaningful.",
+        "The romance forecast: light drizzle with a chance of introspection.",
+        "Your heart is currently updating its software. Please wait... and maybe eat some chocolate.",
+        "Love is teaching you valuable lessons. The kind you didn't ask for but might need.",
+        "The universe is giving your love life some... character development. You're welcome."
+      ]
+    }
+  },
+  "career": {
+    "very_positive": {
+      "min_score": 8,
+      "messages": [
+        "Your career is about to level up so hard, even your resume is getting excited.",
+        "Professional success is heading your way faster than you can say 'promotion'.",
+        "The work gods are smiling upon you. Try not to let it go to your head... too much.",
+        "Your career path just got a turbo boost. Hold onto your desk chair.",
+        "Money, recognition, success - pick three. Just kidding, you might get all of them."
+      ]
+    },
+    "positive": {
+      "min_score": 4,
+      "max_score": 7,
+      "messages": [
+        "Your career is doing that thing where it slowly gets better. You know, growth.",
+        "Professional progress detected. Continue existing at your job for optimal results.",
+        "Your work life is pleasantly... productive. How delightfully ordinary.",
+        "The career forecast: mild success with a chance of minor achievements.",
+        "You're doing adequately well at the whole 'job' thing. Pat yourself on the back, maybe."
+      ]
+    },
+    "neutral": {
+      "min_score": 0,
+      "max_score": 3,
+      "messages": [
+        "Your career is currently... employed. Which is better than the alternative.",
+        "The professional horizon looks... horizontal. Steady as she goes.",
+        "Your job is doing that thing jobs do: providing income and mild existential dread.",
+        "Career update: still happening. More news at 11.",
+        "Work life status: adequately functional. No dramatic changes detected."
+      ]
+    },
+    "challenging": {
+      "max_score": -1,
+      "messages": [
+        "Your career is currently building character. So much character.",
+        "Professional growth opportunity detected! (That's corporate for 'this sucks right now')",
+        "Your job is teaching you patience. And possibly considering alternative careers.",
+        "Work life: temporarily interesting in that 'learning experience' way.",
+        "The universe is giving your career some... texture. It builds resilience, they say."
+      ]
+    }
+  },
+  "life": {
+    "very_positive": {
+      "min_score": 8,
+      "messages": [
+        "Life is about to get so good, you might actually enjoy Mondays. Wild, I know.",
+        "The universe is basically your personal assistant right now. Make reasonable demands.",
+        "Everything is coming up [your name here]! Enjoy it while it lasts.",
+        "Life's treating you like a VIP. Try not to develop a superiority complex.",
+        "Good things are happening. Like, really good. Don't question it, just enjoy."
+      ]
+    },
+    "positive": {
+      "min_score": 4,
+      "max_score": 7,
+      "messages": [
+        "Life is pleasantly... livable right now. Enjoy the lack of drama.",
+        "The general existence forecast: mild contentment with scattered moments of joy.",
+        "Things are going sufficiently well. No complaints detected from management.",
+        "Life status: adequately enjoyable. Continue existing for best results.",
+        "Your reality is currently... acceptable. Some might even say 'nice'."
+      ]
+    },
+    "neutral": {
+      "min_score": 0,
+      "max_score": 3,
+      "messages": [
+        "Life is happening at you. You're handling it with... existence.",
+        "The universe says your life is... present. And sometimes, that's enough.",
+        "Current life status: operational. All systems functioning within normal parameters.",
+        "Your existence is adequately... existent. Carry on.",
+        "Life update: still in progress. More developments as they occur."
+      ]
+    },
+    "challenging": {
+      "max_score": -1,
+      "messages": [
+        "Life is giving you... experiences. The kind that build character, apparently.",
+        "The universe is currently your personal trainer. It's making you stronger, somehow.",
+        "Your life is going through its 'interesting times' phase. Ancient curse, etc.",
+        "Existence is providing... learning opportunities. You're learning so much right now.",
+        "Life status: temporarily educational. You'll appreciate this later, probably."
+      ]
+    }
+  }
+}

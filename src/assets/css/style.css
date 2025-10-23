@@ -12,7 +12,7 @@ html, body {
     overflow: hidden;
     width: 100vw;
     height: 100vh;
-    font-family: 'Pixelify Sans' ;
+    font-family: 'Pixelify Sans';
 }
 
 #title-bar {
@@ -41,6 +41,7 @@ html, body {
   font-weight: normal;
   color: #CFCFCF;
 }
+
 #app {
     height: calc(100vh - 68px);
     background-color: #242424;
@@ -53,12 +54,9 @@ html, body {
     position: relative;
     z-index: 1;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
 }
 
 .window-controls {
@@ -94,7 +92,7 @@ html, body {
     background: #242424;
     color: #ffffff;
     outline: none;
-    width: 320px;
+    width: 280px;
     height: 25px;
 }
 
@@ -103,9 +101,214 @@ html, body {
     background: #242424;
 }
 
+.submit-btn {
+    padding: 14px 30px;
+    border: 2px solid #5A5A5A;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: 'Pixelify Sans';
+    background: #242424;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    background: #2a2a2a;
+}
+
+.submit-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 .instruction {
   color: #CFCFCF;
   text-align: center;
-  font-size: 31px;
+  font-size: 30px;
   margin-bottom: 20px;
+}
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-row {
+    display: flex;
+    gap: 15px;
+}
+
+.first-row, .second-row {
+    justify-content: center;
+}
+
+.last-row {
+    justify-content: flex-start;
+    width: 445px; /* Largeur de 4 cartes + espacements */
+    margin-left: 0;
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    perspective: 800px;
+    cursor: pointer;
+}
+
+.card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.4s;
+}
+
+.card.flipped .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-back, .card-front {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 8px;
+}
+
+.card-back img, .card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card-front {
+    transform: rotateY(180deg);
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.card-name {
+    display: none;
+}
+
+#validate-cards {
+    padding: 12px 24px;
+    border: 2px solid #5A5A5A;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: 'Pixelify Sans';
+    background: #242424;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#validate-cards:hover:not(:disabled) {
+    background: #2a2a2a;
+}
+
+#validate-cards:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 150px;
+}
+
+.cards-counter {
+    font-size: 24px;
+    color: #CFCFCF;
+    font-family: 'Pixelify Sans';
+    text-align: center;
+}
+
+.next-btn {
+    padding: 10px 20px;
+    border: 2px solid #5A5A5A;
+    border-radius: 7px;
+    font-size: 18px;
+    font-family: 'Pixelify Sans';
+    background: #242424;
+    color: #ffffff;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-btn:hover {
+    background: #2a2a2a;
+}
+
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 20px;
+}
+
+.loading-text {
+    font-size: 36px;
+    color: #CFCFCF;
+    text-align: center;
+    margin: 0;
+}
+
+.loading-dots {
+    font-size: 36px;
+    color: #CFCFCF;
+    text-align: center;
+    margin: 0;
+    height: 40px;
+}
+
+.interesting-text {
+    font-size: 36px;
+    color: #CFCFCF;
+    text-align: center;
+    margin: 0;
+    height: 40px;
+}
+.results-container {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.zodiac-info {
+    color: #CFCFCF;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reading-section {
+    margin-bottom: 15px;
+}
+
+.reading-section h3 {
+    color: #CFCFCF;
+    font-size: 24px;
+    margin: 0 0 8px 0;
+}
+
+.reading-section p {
+    color: #CFCFCF;
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 0;
 }

@@ -1,0 +1,112 @@
+{
+  "chariot": {
+    "name": "The Chariot",
+    "image": "../images/chariot.png",
+    "description": "Victory, control, determination",
+    "scores": {
+      "love": 1,
+      "career": 4,
+      "life": 2
+    }
+  },
+  "death": {
+    "name": "Death",
+    "image": "../images/death.png",
+    "description": "Transformation, ending, rebirth",
+    "scores": {
+      "love": -2,
+      "career": -1,
+      "life": 3
+    }
+  },
+  "empress": {
+    "name": "The Empress",
+    "image": "../images/empress.png",
+    "description": "Femininity, abundance, nature",
+    "scores": {
+      "love": 4,
+      "career": 2,
+      "life": 3
+    }
+  },
+  "fool": {
+    "name": "The Fool",
+    "image": "../images/fool.png",
+    "description": "Innocence, new beginning, adventure",
+    "scores": {
+      "love": 2,
+      "career": 3,
+      "life": 4
+    }
+  },
+  "high_priestess": {
+    "name": "High Priestess",
+    "image": "../images/high.png",
+    "description": "Intuition, mystery, subconscious",
+    "scores": {
+      "love": 1,
+      "career": 2,
+      "life": 4
+    }
+  },
+  "lovers": {
+    "name": "The Lovers",
+    "image": "../images/lovers.png",
+    "description": "Love, harmony, choices",
+    "scores": {
+      "love": 5,
+      "career": 1,
+      "life": 2
+    }
+  },
+  "magician": {
+    "name": "The Magician",
+    "image": "../images/magician.png",
+    "description": "Willpower, power, manifestation",
+    "scores": {
+      "love": 2,
+      "career": 4,
+      "life": 3
+    }
+  },
+  "star": {
+    "name": "The Star",
+    "image": "../images/star.png",
+    "description": "Hope, inspiration, guidance",
+    "scores": {
+      "love": 3,
+      "career": 3,
+      "life": 4
+    }
+  },
+  "sun": {
+    "name": "The Sun",
+    "image": "../images/sun.png",
+    "description": "Happiness, success, vitality",
+    "scores": {
+      "love": 4,
+      "career": 4,
+      "life": 5
+    }
+  },
+  "temperance": {
+    "name": "Temperance",
+    "image": "../images/tempe.png",
+    "description": "Balance, patience, moderation",
+    "scores": {
+      "love": 2,
+      "career": 2,
+      "life": 3
+    }
+  },
+  "wheel": {
+    "name": "Wheel of Fortune",
+    "image": "../images/wheel.png",
+    "description": "Luck, cycles, destiny",
+    "scores": {
+      "love": 1,
+      "career": 3,
+      "life": 4
+    }
+  }
+}

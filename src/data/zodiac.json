@@ -1,0 +1,122 @@
+{
+  "aries": {
+    "dates": "03-21:04-19",
+    "element": "fire",
+    "traits": ["passionate", "courageous", "adventurous"],
+    "scores": {
+      "love": 2,
+      "career": 3,
+      "life": 2
+    }
+  },
+  "taurus": {
+    "dates": "04-20:05-20",
+    "element": "earth",
+    "traits": ["reliable", "sensual", "patient"],
+    "scores": {
+      "love": 3,
+      "career": 2,
+      "life": 3
+    }
+  },
+  "gemini": {
+    "dates": "05-21:06-20",
+    "element": "air",
+    "traits": ["communicative", "curious", "adaptable"],
+    "scores": {
+      "love": 2,
+      "career": 3,
+      "life": 2
+    }
+  },
+  "cancer": {
+    "dates": "06-21:07-22",
+    "element": "water",
+    "traits": ["nurturing", "intuitive", "protective"],
+    "scores": {
+      "love": 4,
+      "career": 2,
+      "life": 3
+    }
+  },
+  "leo": {
+    "dates": "07-23:08-22",
+    "element": "fire",
+    "traits": ["confident", "generous", "dramatic"],
+    "scores": {
+      "love": 3,
+      "career": 3,
+      "life": 3
+    }
+  },
+  "virgo": {
+    "dates": "08-23:09-22",
+    "element": "earth",
+    "traits": ["analytical", "practical", "organized"],
+    "scores": {
+      "love": 2,
+      "career": 4,
+      "life": 2
+    }
+  },
+  "libra": {
+    "dates": "09-23:10-22",
+    "element": "air",
+    "traits": ["diplomatic", "harmonious", "social"],
+    "scores": {
+      "love": 4,
+      "career": 2,
+      "life": 2
+    }
+  },
+  "scorpio": {
+    "dates": "10-23:11-21",
+    "element": "water",
+    "traits": ["intense", "passionate", "mysterious"],
+    "scores": {
+      "love": 4,
+      "career": 3,
+      "life": 2
+    }
+  },
+  "sagittarius": {
+    "dates": "11-22:12-21",
+    "element": "fire",
+    "traits": ["adventurous", "optimistic", "philosophical"],
+    "scores": {
+      "love": 2,
+      "career": 2,
+      "life": 4
+    }
+  },
+  "capricorn": {
+    "dates": "12-22:01-19",
+    "element": "earth",
+    "traits": ["ambitious", "disciplined", "responsible"],
+    "scores": {
+      "love": 2,
+      "career": 4,
+      "life": 2
+    }
+  },
+  "aquarius": {
+    "dates": "01-20:02-18",
+    "element": "air",
+    "traits": ["innovative", "humanitarian", "independent"],
+    "scores": {
+      "love": 2,
+      "career": 3,
+      "life": 3
+    }
+  },
+  "pisces": {
+    "dates": "02-19:03-20",
+    "element": "water",
+    "traits": ["compassionate", "artistic", "intuitive"],
+    "scores": {
+      "love": 4,
+      "career": 2,
+      "life": 3
+    }
+  }
+}
