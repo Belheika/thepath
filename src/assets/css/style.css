@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+
+.pixel-font {
+    font-family: 'Pixelify Sans', cursive;
+    font-smooth: never;
+    -webkit-font-smoothing: none;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Pixelify Sans' ;
+}
+
+#title-bar {
+    height: 68px;
+    background-color: #242424;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 600;
+    -webkit-app-region: drag;
+    border: 3px solid #5A5A5A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 32px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 27px;
+  font-weight: normal;
+  color: #CFCFCF;
+}
+#app {
+    height: calc(100vh - 68px);
+    background-color: #242424;
+    border: 3px solid #5A5A5A;
+    border-top: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-sizing: border-box;
+    margin-top: 68px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+
+.window-controls {
+    display: flex;
+    gap: 18px;
+    -webkit-app-region: no-drag;
+}
+
+.window-controls button {
+    all: unset;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-app-region: no-drag;
+}
+
+.window-controls button img {
+    width: 36px;
+    height: 36px;
+    image-rendering: pixelated;
+    display: block;
+}
+
+.input-rounded {
+    padding: 11px 25px;
+    border: 2px solid #5A5A5A;
+    border-radius: 7px;
+    font-size: 18px;
+    font-family: 'Courier New', monospace;
+    background: #242424;
+    color: #ffffff;
+    outline: none;
+    width: 320px;
+    height: 25px;
+}
+
+.input-rounded:focus {
+    border-color: #5A5A5A;
+    background: #242424;
+}
+
+.instruction {
+  color: #CFCFCF;
+  text-align: center;
+  font-size: 31px;
+  margin-bottom: 20px;
+}

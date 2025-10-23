@@ -1,0 +1,12 @@
+{
+  "name": "tarot-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . --no-sandbox",
+    "dev": "electron . --dev --no-sandbox"
+  },
+  "devDependencies": {
+    "electron": "^latest"
+  }
+}
